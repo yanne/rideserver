@@ -1,0 +1,14 @@
+*** Settings ***
+Documentation   documentation for test suite
+Default Tags    Tag1
+Library   OperatingSystem
+Library   Invalid
+
+*** Test Cases ***
+Test Case 2.1
+    [Documentation]  Doc for test case
+    No Operation
+
+Test Case 2.2
+    [Documentation]  Doc for test case
+    No Operation

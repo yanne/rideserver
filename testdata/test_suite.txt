@@ -1,0 +1,10 @@
+*** Settings ***
+Documentation   documentation for test suite
+Resource        resource.robot
+Default Tags    Tag1
+
+*** Test Cases ***
+Test Case 1
+    [Documentation]  Doc for test case
+    [Tags]    Tag2
+    No Operation
