@@ -8,9 +8,10 @@ Reads the given suite, parses it using RF modules and tries to import libraries 
 
 ## Usage
 Start server with:
-`git clone https://github.com/yanne/rideserver/`
-`cd rideserver`
-`python rideserver/main.py <path/to/your/testsuite>`
+
+    git clone https://github.com/yanne/rideserver/
+    cd rideserver
+    python rideserver/main.py <path/to/your/testsuite>
 
 ### Supported queries
 
@@ -24,7 +25,7 @@ Start server with:
 
 Strongly recommend using Virtualenv.
 
-`git clone https://github.com/yanne/rideserver/`
-`cd rideserver`
-`mkvirtualenv rideserver`
-`pip install -r requiremenst.txt`
+    git clone https://github.com/yanne/rideserver/
+    cd rideserver
+    mkvirtualenv rideserver
+    pip install -r requiremenst.txt
